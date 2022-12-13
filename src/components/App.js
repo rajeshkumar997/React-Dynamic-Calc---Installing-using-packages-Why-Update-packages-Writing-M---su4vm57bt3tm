@@ -6,7 +6,8 @@ const App = () => {
 
   const [input1, setInput1] = useState("")
   const [input2, setInput2] = useState("")
-return (
+  
+  return (
     <div id="main">
       <input id='input1' onChange={(e) => setInput1(e.target.value)}/>
        +
